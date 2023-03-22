@@ -1,0 +1,11 @@
+{
+    "compilerOptions": {
+      "esModuleInterop": true,
+      "module": "commonjs",
+      "outDir": "dist",
+      "target": "es5",
+      "lib": ["esnext.private-identifier", "dom"]
+    },
+    "include": ["src/**/*.ts", "tests/**/*.ts"],
+    "exclude": ["node_modules"]
+}
